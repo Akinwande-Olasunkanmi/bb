@@ -370,7 +370,7 @@ button.white{
     font-weight: 300;
 }
 #sm-banner h2{
-    color: #116811;
+    color: red;
     font-size: 28px;
     font-weight: 800;
 }
@@ -419,7 +419,7 @@ button.white{
     background-size: cover;
 }
 #banner3 h2{
-    color: #116811;
+    color: #b93434;
     font-weight: 900;
     font-size: 22px;
 }
@@ -633,7 +633,7 @@ footer .copyright{
 
 /* media query */
 
-@media (max-width: 477px) {
+@media (max-width: 414px) {
 
     #navbar{
         display: flex;
@@ -666,7 +666,7 @@ footer .copyright{
         color: #fff;
         font-size: 13px;
         position: absolute;
-        top: 570px;
+        top: 477px;
         right: 40%;
         padding: 2px 4px;
     }
@@ -680,7 +680,7 @@ footer .copyright{
         font-size: 13px;
         position: absolute;
         top: 8px;
-        right: 11%;
+        right: 13%;
         padding: 2px 4px;
     }
     #navbar li .far{
@@ -725,12 +725,22 @@ footer .copyright{
         background-position: 55%;
         height: 90vh;
     }
+    #hero .bot{
+        display: flex;
+        align-items: center;
+        padding-top: 50px;
+    }
+    #hero button,
+    #hero .second{
+        padding-right: 10px;
+        margin-right: 10px;
+    }
     #hero h2 {
         position: absolute;
         font-size: 35px;
         top: 30%;
         text-align: center;
-        right: 5%;
+        right: 0%;
         color: #fff;
     }
     #hero h4 {
